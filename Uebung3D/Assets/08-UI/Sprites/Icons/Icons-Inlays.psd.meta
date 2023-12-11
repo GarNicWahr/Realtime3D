@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: 5bed054cea9941c4ebbd22743161c65c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5451149914213276441
+    second: Icons-Inlays-Door
+  - first:
+      213: 46546778004171614
+    second: Icons-Inlays-Drawer
+  - first:
+      213: -5580890025208763269
+    second: Icons-Inlays-NoInlay
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,6 +103,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,7 +145,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icons-Inlays_0
+      name: Icons-Inlays-Door
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8672bbe038fa60d43b60492bc4075e5d
-      internalID: -320906496
+      spriteID: 7e4aae1d800a954b0800000000000000
+      internalID: -5451149914213276441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icons-Inlays_1
+      name: Icons-Inlays-Drawer
       rect:
         serializedVersion: 2
         x: 100
@@ -158,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc437add6c4d0e640813530fafe1c2ff
-      internalID: 1002659709
+      spriteID: e5ba0684c0e55a000800000000000000
+      internalID: 46546778004171614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icons-Inlays_2
+      name: Icons-Inlays-NoInlay
       rect:
         serializedVersion: 2
         x: 200
@@ -179,8 +201,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2afa4588aa1e8e84e9ccdd29aae8b070
-      internalID: -1062597668
+      spriteID: b7c29e44712bc82b0800000000000000
+      internalID: -5580890025208763269
       vertices: []
       indices: 
       edges: []
@@ -196,9 +218,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icons-Inlays_0: -320906496
-      Icons-Inlays_1: 1002659709
-      Icons-Inlays_2: -1062597668
+      Icons-Inlays-Door: -5451149914213276441
+      Icons-Inlays-Drawer: 46546778004171614
+      Icons-Inlays-NoInlay: -5580890025208763269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
