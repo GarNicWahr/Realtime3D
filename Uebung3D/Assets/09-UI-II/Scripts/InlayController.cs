@@ -92,7 +92,11 @@ public class InlayController : MonoBehaviour
         for (int i = 0; i < renderer.Length; i++)
         {
             // TODO: Überprüfen ob der Renderer zu einem GameObject mit einem Tag gehört
-            renderer[i].material.SetColor("_BaseColor", availableColors[index]);
+            if (renderer[i].gameObject.CompareTag("ColorChange"))
+            {
+                renderer[i].material.SetColor("_Color", availableColors[index]);
+            }
+            
         }
         // Index der gerade ausgewählten Farbe merken
         currentColorIndex = index;
